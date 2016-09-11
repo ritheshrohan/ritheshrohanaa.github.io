@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Raleway";
-    src: url("Raleway-Light.ttf");
+    src: url("Raleway.ttf");
 }
 
 html,body{
@@ -68,14 +68,14 @@ position: relative;
 }
 
 .herotext{
-    font-family: "Raleway-Light";
+    font-family: "Raleway";
   text-align: center;
   color: white;
 }
 
 
 .herotext1{
-  font-family: "Raleway-Light";
+  font-family: "Raleway";
   text-align: center;
   color:#fff;
 }
@@ -90,13 +90,13 @@ position: relative;
 .hugeEmail{
   margin: 5% 0;
   text-align: center;
-  font-family: "Raleway-Light";
+  font-family: "Raleway";
   color:#ddd;
 
 }
 
 .threesections{
-  font-family: "Raleway-Light";
+  font-family: "Raleway";
   margin-top: 7%;
   text-align: center;
   color: white;
@@ -129,14 +129,14 @@ position: relative;
 .myDesc{
   font-size: 2em;
   margin-top: 5%;
-  font-family: "Raleway-Light";
+  font-family: "Raleway";
   color:#fefefe;
   text-align: center;
 }
 
 .abt2Desc{
   font-size: 1.3em;
-  font-family: "Raleway-Light";
+  font-family: "Raleway";
   color:#fefefe;
   text-align: left;
 }
