@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("../css/Raleway-Light.ttf");
+}
+
 html,body{
 height: 100%;
 overflow-x:hidden;
