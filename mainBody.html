@@ -1,0 +1,94 @@
+<script>
+$( function() {
+       $( '.type-text' ).teletype( {
+           text: [ "Hi, I'm Rithesh Rohan.", "Front-End Developer", "Photographer"],
+           typeDelay:10,
+           backDelay:50,
+           loop:0,
+           humanise:true,
+           smoothBlink:true,
+           preserve:false
+         } );
+   } );
+
+</script>
+
+
+
+<!--  Hero Container with sections.etc-->
+<div class="container-fluid mainBody">
+  <div class="positionsmallsvg">
+    <object>
+      <embed class="animated smallsvg fadeInDown mainSvg" src="svg/a.svg" width="10%" height:"10%"/>
+    </object>
+
+  </div>
+<br />
+<h2 class="herotext animated smallsvg fadeInDown type-text"></h2>
+
+<!--  Start of 3 sections - about,work,contact-->
+<div class="threesections">
+
+<div class="row">
+
+<a id="clickAbt" href="#/about">
+  <div class="col-md-4 abt">
+
+    <center>
+      <a class="svg" href="#/about">
+      <object >
+        <embed class="animated smallsvg fadeInUp" src="svg/fingerprint.svg" width="25%" height:"25%"/>
+      </object>
+      </a>
+    </center>
+
+    <h2 class="animated smallsvg fadeInUp "><a href="#/about">About</a></h2>
+
+  </div>
+</a>
+
+<a href="">
+  <div class="col-md-4 work">
+
+    <center>
+      <a class="svg" href="#/work">
+      <object>
+        <embed class="animated smallsvg fadeInUp" src="svg/repair-tools.svg" width="25%" height:"25%"/>
+      </object>
+      </a>
+    </center>
+
+    <a href="#/work"><h2 class="animated smallsvg fadeInUp ">Work</h2></a>
+
+
+  </div>
+</a>
+
+    <div class="col-md-4 cont">
+
+      <center>
+        <a class="svg" href="#/cont">
+        <object>
+          <embed class="animated smallsvg fadeInUp" src="svg/mail.svg" width="25%" height:"25%"/>
+        </object>
+      </a>
+      </center>
+
+        <a href="#/cont"><h2 class="animated smallsvg fadeInUp">Contact</h2></a>
+
+    </div>
+
+</div>
+
+
+</div>
+<!-- <center>
+  <i class="shows fa fa-ellipsis-h" aria-hidden="true"></i>
+</center> -->
+
+<center>
+<a href="resume.pdf" target="_blank"><button class="btn btn-md btn-info resume animated fadeInUp">Résumé</button></a>
+</center>
+
+<!--  End of 3 sections - about,work,contact-->
+</div>

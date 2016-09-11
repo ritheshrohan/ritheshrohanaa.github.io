@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" enable-background="new 0 0 1920 1080" xml:space="preserve">
+
+<style>
+	.st1{fill:none;stroke:#00BFFF;stroke-width:10;stroke-miterlimit:10;}
+
+	.st1{
+
+	stroke-dasharray: 3500;
+	stroke-dashoffset:0;
+	-webkit-animation: dasho 1s linear forwards;
+	animation: dasho 1s linear forwards;
+	}
+
+	@-webkit-keyframes dasho{
+
+	from{
+
+	stroke-dashoffset:3100;
+	}
+	to{
+
+	stroke-dashoffset:0;
+	}
+	}
+</style>
+
+<path class="st1" d="M960,0c298.3,0,540,241.8,540,540s-241.8,540-540,540
+	S420,838.2,420,540S661.8,0,960,0z"/>
+<path class="st1" d="M724.3,742h101.1v-337H724.3V742z M1118.2,393.3
+	c-49.1,0-93,17.9-124.1,57.5v-46.9H892.6V742h101.5V559.1c0-38.6,35.4-76.3,79.8-76.3s55.3,37.7,55.3,75.4v183.8h101.1V550.6
+	C1230.2,417.8,1167.3,393.3,1118.2,393.3z M774.4,371.3c27.9,0,50.6-22.7,50.6-50.6S802.3,270,774.4,270
+	c-27.9,0-50.6,22.7-50.6,50.6C723.7,348.6,746.4,371.3,774.4,371.3z"/>
+</svg>

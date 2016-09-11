@@ -1,0 +1,277 @@
+html,body{
+height: 100%;
+overflow-x:hidden;
+background-color: #222125;
+}
+
+/*Loader - PACE style*/
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #E64C3B;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 5px;
+}
+/*End of Loader - PACE style */
+
+
+a, a:hover, a:focus{
+color:inherit;
+text-decoration: none;
+
+}
+
+.mainBody{
+min-height: 100%;
+width: 100%;
+
+}
+
+.aboutMe{
+  padding-top: 2.5%;
+min-height: 100%;
+}
+
+.positionsvg{
+text-align: center;
+position: relative;
+}
+
+.positionsmallsvg{
+  text-align: center;
+  margin-top: 8%;
+}
+
+.positionsmallsvgContact{
+  text-align: center;
+  margin-top: 4%;
+}
+
+.herotext{
+    font-family: "Raleway-Light";
+  text-align: center;
+  color: white;
+}
+
+
+.herotext1{
+  font-family: "Raleway-Light";
+  text-align: center;
+  color:#fff;
+}
+
+.herotext2{
+  font-family: "Brandon Grotesque";
+  text-align: left;
+  color:#48AFE3;
+
+}
+
+.hugeEmail{
+  margin: 5% 0;
+  text-align: center;
+  font-family: "Raleway-Light";
+  color:#ddd;
+
+}
+
+.threesections{
+  font-family: "Raleway-Light";
+  margin-top: 7%;
+  text-align: center;
+  color: white;
+}
+
+
+.abt:hover{
+    color: #48AFE3;
+  transform: translateY(-7px);
+  transition: all 0.3s ease;
+
+}
+
+
+.work:hover {
+  color: #E64C3B;
+  transform: translateY(-7px);
+  transition: all 0.3s ease;
+
+}
+
+.cont:hover{
+
+  color: #FCE2A6;
+  transform: translateY(-7px);
+  transition: all 0.3s ease;
+
+}
+
+.myDesc{
+  font-size: 2em;
+  margin-top: 5%;
+  font-family: "Raleway-Light";
+  color:#fefefe;
+  text-align: center;
+}
+
+.abt2Desc{
+  font-size: 1.3em;
+  font-family: "Raleway-Light";
+  color:#fefefe;
+  text-align: left;
+}
+
+.glyphicon-chevron-down{
+  font-size: 1.2em;
+  color: white;
+}
+.glyphicon-chevron-down:hover{
+  color: #48AFE3;
+  transform: translateY(5px);
+  transition: all 0.8s linear;
+}
+
+
+.glyphicon-chevron-up{
+  font-size: 1.2em;
+    color: white;
+
+}
+.glyphicon-chevron-up:hover{
+color: #48AFE3;
+transition: all 0.8s linear;
+transform: translateY(5px);
+}
+
+
+/*SVG CLICKABLE*/
+a.svg {
+  position: relative;
+  display: inline-block;
+}
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+}
+/**/
+
+.btn-success{
+
+  background: none;
+  border:2px solid #48AFE3;
+  border-radius: 0px;
+  transition: all 0.3s ease;
+}
+.btn-success:hover{
+    background: #48AFE3;
+    border-radius: 0px;
+    border:2px solid #48AFE3;
+
+}
+
+/*2nd button*/
+
+
+.btn-success1{
+  background: none;
+  border:2px solid #8f7b7b;
+  border-radius: 0px;
+  transition: all 0.3s ease;
+}
+.btn-success1:hover{
+    background: #8f7b7b;
+    border-radius: 0px;
+border:2px solid #8f7b7b;
+color:white;
+}
+
+/*3rd button*/
+
+.btn-success2{
+  background: none;
+  border:2px solid #8ACA7B;
+  border-radius: 0px;
+  transition: all 0.3s ease;
+}
+.btn-success2:hover{
+    background: #8ACA7B;
+    border-radius: 0px;
+border:2px solid #8ACA7B;
+color:white;
+}
+/*4th button*/
+.btn-success3{
+  background: none;
+  border:2px solid #BF529B;
+  border-radius: 0px;
+  transition: all 0.3s ease;
+}
+.btn-success3:hover{
+    background: #BF529B;
+    border-radius: 0px;
+border:2px solid #BF529B;
+color:white;
+}
+
+
+/*Button enhancements*/
+
+.btn-info{
+  border:1px solid #ddd;
+  background: none;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+.btn-info:hover {
+border-radius: 0px;
+border:1px solid #87D37C !important;
+outline: none;
+color:#87D37C;
+background: none;
+
+}
+
+.btn-info:focus, .btn-info:active{
+  border:1px solid #ddd;
+  outline: none;
+  box-shadow: none;
+
+background: none;
+}
+
+.resume{
+  margin-top: 5%;
+}
+
+.navbar-inverse{
+background: none;
+border: none;
+box-shadow: none;
+color:#ddd;
+}
+
+.navbar-inverse p{
+  text-align: center;
+  color: #333;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}

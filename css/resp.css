@@ -1,0 +1,112 @@
+/* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+
+
+            .abt, .work, .cont{
+
+              padding-top: 6%;
+              padding-bottom: 2%;
+              border-top: 1px solid #3e3c44;
+            }
+
+            .cont{
+                border-bottom: 1px solid #3e3c44;
+            }
+
+            .resume{
+              margin-top: 30px;
+              margin-bottom: 20px;
+            }
+
+            .mainSvg{
+              width: 20%;
+              height: 20%;
+            }
+
+            .img-circle{
+              max-height: 100px !important;
+            }
+
+            .myDesc{
+              font-size: 1.3em;
+            }
+
+            .herotext1{
+              font-size: 1.3em;
+            }
+          .fa-angle-double-up{
+              margin-top: 5%;
+            }
+
+          .fa-angle-double-down{
+            margin-bottom: 5%;
+          }
+
+          .satis{
+            margin-bottom: 5%;
+          }
+
+          .hugeEmail{
+            font-size: 1.3em;
+          }
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+
+
+      .abt, .work, .cont{
+        padding-top: 6%;
+        padding-bottom: 2%;
+        border-top: 1px solid #3e3c44;
+
+      }
+
+
+      .cont{
+          border-bottom: 1px solid #3e3c44;
+      }
+
+      .resume{
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+
+      .mainSvg{
+        width: 20%;
+        height: 20%;
+      }
+
+      .img-circle{
+        max-height: 100px !important;
+      }
+
+      .myDesc{
+        font-size: 1.6em;
+      }
+
+      .herotext1{
+        font-size: 1.6em;
+      }
+      .fa-angle-double-up{
+          margin-top: 5%;
+        }
+
+      .fa-angle-double-down{
+        margin-bottom: 5%;
+      }
+
+      .satis{
+        margin-bottom: 5%;
+      }
+
+      .hugeEmail{
+        font-size: 1.3em;
+      }
+
+
+
+
+
+    }
